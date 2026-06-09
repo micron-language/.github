@@ -2,16 +2,12 @@
 
 Micron is a systems programming language with
 a syntax similar to Oberon+ and the flexibility of C. It is designed to
-be capable enough to represent the TBD (Lua, etc.) system, and thus to
-be an adequate alternative to C.
+be useful for both, low-level operating system and driver programming usually
+accomplished with assembler and C, but also high-level application programming,
+optionally with automatic memory management, controlled by language levels.
 
 The name "Micron" is an abbreviation of "MicroOberon".
 
-The most important features of Micron are
-block structure, modularity, separate compilation, static typing with
-strong type checking, and generic programming. Micron is a
-value-oriented language in the tradition of C-like systems languages,
-rather than reference-oriented language.
 
 See [The Micron Programming Language Specification](https://github.com/micron-language/specification/blob/master/The_Micron_Programming_Language_Specification.adoc) for more information.
 
